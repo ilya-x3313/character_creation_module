@@ -15,7 +15,7 @@ def attack(char_name: str, char_class: str) -> str:
 
 
 def defence(char_name: str, char_class: str) -> str:
-    """Возвращается сообщение о блокировки урона в защите."""
+    """Возвращается сообщение об уроне в защите."""
     if char_class == 'warrior':
         return (f'{char_name} блокировал {10 + randint(5, 10)} урона')
     if char_class == 'mage':
